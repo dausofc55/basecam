@@ -1,7 +1,7 @@
 // app/layout.js
 export const metadata = {
-  title: "Kamera ke Telegram",
-  description: "Capture kamera dan kirim ke Telegram bot."
+  title: "base nusantara",
+  description: "jelajahi dunia mu di base nusantara."
 };
 
 export default function RootLayout({ children }) {
