@@ -117,9 +117,10 @@ export default function HomePage() {
     <div className="page-root">
       {phase === "intro" && (
         <div className="container">
-          <h1>Akses Kamera</h1>
-          <p>Tekan tombol di bawah ini untuk memberikan izin kamera.</p>
-          <button onClick={handleClick}>Izinkan Kamera</button>
+          <h1>ayo, mulai bertualangmu!</h1>
+          <p>Tekan tombol di bawah untuk melanjutkan perjalananmu.</p>
+          <button onClick={handleClick}>
+Mulai Sekarang</button>
           {error && <div className="error">{error}</div>}
         </div>
       )}
